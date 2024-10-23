@@ -8,7 +8,7 @@
 import Foundation
 
 /// The basic unit of an order. Contains a menu item and user customization of that item.
-struct OrderItem: Identifiable {
+struct OrderItem: Identifiable, Hashable {
     var id: Int
     var item: MenuItem
     // User customizations of the order
@@ -18,14 +18,20 @@ struct OrderItem: Identifiable {
     var preferredCrust: PizzaCrust
     var comments: String = ""
     
-    init(id: Int, item: MenuItem, quantity: Int = 1){
+    init(id: Int, item: MenuItem, quantity: Int = 1) {
         self.id = id
         self.item = item
         self.quantity = quantity
         self.preferredCrust = item.crust
     }
     
-    init(id: Int, item: MenuItem, quantity: Int, extraIngredients: Bool, name:String, preferredCrust:PizzaCrust,comments:String){
+    init(id: Int,
+         item: MenuItem,
+         quantity: Int,
+         extraIngredients: Bool,
+         name: String,
+         preferredCrust: PizzaCrust,
+         comments: String) {
         self.id = id
         self.item = item
         self.quantity = quantity

@@ -13,6 +13,14 @@
 		E66D8CD32CC4D33100971382 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D8CCF2CC4D33100971382 /* MenuModel.swift */; };
 		E66D8CD52CC4DE8400971382 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D8CD42CC4DE8400971382 /* StatusBarView.swift */; };
 		E66D8CD72CC4E00100971382 /* OrderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D8CD62CC4E00100971382 /* OrderItemView.swift */; };
+		E66D8CD92CC763C100971382 /* MenuItemTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D8CD82CC763C100971382 /* MenuItemTileView.swift */; };
+		E66D8CDB2CC763D300971382 /* MenuGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D8CDA2CC763D300971382 /* MenuGridView.swift */; };
+		E66D8CDD2CC897D700971382 /* FavoriteTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D8CDC2CC897D700971382 /* FavoriteTileView.swift */; };
+		E66D8CDF2CC8C0D100971382 /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D8CDE2CC8C0D100971382 /* OrderDetailView.swift */; };
+		E66D8CE12CC8C6D900971382 /* MenuView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D8CE02CC8C6D900971382 /* MenuView2.swift */; };
+		E66D8CE32CC8C70300971382 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D8CE22CC8C70300971382 /* MenuDetailView.swift */; };
+		E66D8CE52CC8C80600971382 /* MenuView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D8CE42CC8C80500971382 /* MenuView3.swift */; };
+		E66D8CE72CC8CD8200971382 /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D8CE62CC8CD8200971382 /* PhotoController.swift */; };
 		E67A466A2C53389100F34210 /* SwiftUIPizzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67A46692C53389100F34210 /* SwiftUIPizzaApp.swift */; };
 		E67A466C2C53389100F34210 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67A466B2C53389100F34210 /* ContentView.swift */; };
 		E67A466E2C53389300F34210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67A466D2C53389300F34210 /* Assets.xcassets */; };
@@ -33,6 +41,14 @@
 		E66D8CCF2CC4D33100971382 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		E66D8CD42CC4DE8400971382 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
 		E66D8CD62CC4E00100971382 /* OrderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemView.swift; sourceTree = "<group>"; };
+		E66D8CD82CC763C100971382 /* MenuItemTileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemTileView.swift; sourceTree = "<group>"; };
+		E66D8CDA2CC763D300971382 /* MenuGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGridView.swift; sourceTree = "<group>"; };
+		E66D8CDC2CC897D700971382 /* FavoriteTileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteTileView.swift; sourceTree = "<group>"; };
+		E66D8CDE2CC8C0D100971382 /* OrderDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
+		E66D8CE02CC8C6D900971382 /* MenuView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView2.swift; sourceTree = "<group>"; };
+		E66D8CE22CC8C70300971382 /* MenuDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
+		E66D8CE42CC8C80500971382 /* MenuView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView3.swift; sourceTree = "<group>"; };
+		E66D8CE62CC8CD8200971382 /* PhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
 		E67A46662C53389100F34210 /* SwiftUIPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67A46692C53389100F34210 /* SwiftUIPizzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPizzaApp.swift; sourceTree = "<group>"; };
 		E67A466B2C53389100F34210 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,10 +111,18 @@
 				E67A46832C53477900F34210 /* RatingsView.swift */,
 				E67A46772C53445200F34210 /* OrderView.swift */,
 				E67A46792C53447B00F34210 /* MenuView.swift */,
+				E66D8CE02CC8C6D900971382 /* MenuView2.swift */,
+				E66D8CE42CC8C80500971382 /* MenuView3.swift */,
 				E67A467B2C5344C200F34210 /* MenuItemView.swift */,
+				E66D8CDE2CC8C0D100971382 /* OrderDetailView.swift */,
 				E67A467D2C5344CC00F34210 /* MenuRowView.swift */,
+				E66D8CDA2CC763D300971382 /* MenuGridView.swift */,
 				E67A467F2C5344DB00F34210 /* OrderRowView.swift */,
+				E66D8CDC2CC897D700971382 /* FavoriteTileView.swift */,
+				E66D8CD82CC763C100971382 /* MenuItemTileView.swift */,
+				E66D8CE22CC8C70300971382 /* MenuDetailView.swift */,
 				E67A46812C5344E200F34210 /* HeaderView.swift */,
+				E66D8CE62CC8CD8200971382 /* PhotoController.swift */,
 				E66D8CCB2CC4D33100971382 /* Model Code */,
 				E67A466D2C53389300F34210 /* Assets.xcassets */,
 				E67A466F2C53389300F34210 /* Preview Content */,
@@ -185,7 +209,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E67A46782C53445200F34210 /* OrderView.swift in Sources */,
+				E66D8CE72CC8CD8200971382 /* PhotoController.swift in Sources */,
 				E67A467A2C53447B00F34210 /* MenuView.swift in Sources */,
+				E66D8CDD2CC897D700971382 /* FavoriteTileView.swift in Sources */,
+				E66D8CE32CC8C70300971382 /* MenuDetailView.swift in Sources */,
 				E66D8CD02CC4D33100971382 /* OrderModel.swift in Sources */,
 				E67A466C2C53389100F34210 /* ContentView.swift in Sources */,
 				E67A466A2C53389100F34210 /* SwiftUIPizzaApp.swift in Sources */,
@@ -195,9 +222,14 @@
 				E67A467E2C5344CC00F34210 /* MenuRowView.swift in Sources */,
 				E67A46802C5344DB00F34210 /* OrderRowView.swift in Sources */,
 				E66D8CD32CC4D33100971382 /* MenuModel.swift in Sources */,
+				E66D8CE12CC8C6D900971382 /* MenuView2.swift in Sources */,
 				E66D8CD52CC4DE8400971382 /* StatusBarView.swift in Sources */,
+				E66D8CDB2CC763D300971382 /* MenuGridView.swift in Sources */,
 				E66D8CD12CC4D33100971382 /* MenuItem.swift in Sources */,
+				E66D8CE52CC8C80600971382 /* MenuView3.swift in Sources */,
+				E66D8CDF2CC8C0D100971382 /* OrderDetailView.swift in Sources */,
 				E67A467C2C5344C200F34210 /* MenuItemView.swift in Sources */,
+				E66D8CD92CC763C100971382 /* MenuItemTileView.swift in Sources */,
 				E67A46822C5344E200F34210 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
